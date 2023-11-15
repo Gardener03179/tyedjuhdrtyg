@@ -1,4 +1,4 @@
-name: DNSOverride
+name: DNS Override
 dns:
   # 将会完整覆盖原有 default-nameserver
   default-nameserver: #!replace
@@ -8,4 +8,5 @@ dns:
   # 将会完整覆盖原有 nameserver
   nameserver: #!replace
     - https://1.0.0.1/dns-query # CF IPv4
+    - https://223.5.5.5/dns-query # Ali IPv4
     - https://[2606:4700:4700::1111]/dns-query # CF IPv6
