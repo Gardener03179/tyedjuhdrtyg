@@ -1,4 +1,5 @@
 name: DNSOverride
+desc: 覆盖默认dns
 dns:
   # 将会完整覆盖原有 default-nameserver
   default-nameserver: #!replace
